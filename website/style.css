@@ -1,0 +1,135 @@
+:root {
+    --text-color: #A54657;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: #F7F0F5;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    grid-gap: 1em;
+    height: 95vh;
+    width: 100vh;
+    border-radius: 45px;
+    box-shadow: 1px 1px 15px 1px #3b4a6b;
+    background: white;
+    color: var(--text-color);
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.duo {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 1em;
+}
+
+.empty::placeholder {
+    color: red;
+}
+
+.entry {
+    /*background: rgba(59, 74, 107, .4);*/
+    margin-top: 15px;
+    box-shadow: 1px 1px 5px 0.1px #55868C;
+    font-size: 18px;
+}
+
+#entryHolder {
+    width: 400px;
+    padding: 10px;
+}
+
+#content {
+    overflow-wrap: break-word;
+}
+
+.headline {
+    font-size: 45px;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label {
+    display: block;
+    font-size: 25px;
+}
+
+input {
+    display: block;
+    height: 60px;
+    width: 320px;
+    background: floralwhite;
+    color: var(--text-color);
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: 1px solid black;
+}
+
+button {
+    width: 400px;
+    height: 100px;
+    background: #55868C;
+    color: beige;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+    margin-top: 5px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+textarea {
+    background: floralwhite;
+    color: var(--text-color);
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+/* Style for Placeholder Text*/
+::placeholder {
+    /* Firefox, Chrome, Opera */
+    color: var(--text-color);
+    font-family: 'Oswald', sans-serif;
+
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: var(--text-color);
+    font-family: 'Oswald', sans-serif;
+
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: var(--text-color);
+    font-family: 'Oswald', sans-serif;
+
+}
