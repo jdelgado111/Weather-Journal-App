@@ -11,6 +11,3 @@ If Node is installed, then you can use the Node Package Manager to install the p
 
 ## Instructions for Use
 Enter a US zip code (required) and your feelings for the day (optional). Press the **Generate** button to make your entry.
-
-## Author
-The code was written by Janeth Delgado, based on starter code given for the project by Udacity.
